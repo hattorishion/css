@@ -1,0 +1,579 @@
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+#akt2 ::-webkit-scrollbar { 
+  width: 7px; 
+  height: 7px; 
+}
+#akt2 ::-webkit-scrollbar-track { 
+  background: var(--darkpurple);
+  border: 3px solid #ddd; 
+}
+#akt2 ::-webkit-scrollbar-thumb { 
+  background: #484747; 
+  border: 3px solid #eee; 
+}
+
+#akt2 {width:680px;
+height:600px;
+background:#fafafa;
+border:1px solid #ddd;
+margin:auto;
+display:flex;}
+#akt2 .t1{background:transparent;
+padding:0px 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+font:900 40px Arial;
+color:#484747;
+letter-spacing: -5px;
+  height:100%;
+  width:90px;
+  display:inline-block;
+}
+#akt2 .t1 i {font-size:90px;
+color:#484747;}
+
+#akt2 .t2 {border:1px solid #ddd;
+width:520px;
+height:95px;
+  border-radius:1px;
+background:#eee;
+margin-top:30px;}
+
+#akt2 .t2 contaprincipal {display:inline-block;
+border:1px solid #ddd;
+width:auto;
+  height:18px;
+  position:relative;
+  top:5px;
+left:5px;
+text-align:left;
+padding:10px;
+background:#fafafa;
+overflow:hidden;
+width:230px;}
+#akt2 .t2 contaprincipal:before{font-family: 'Font Awesome\ 5 Free';
+content: "\f007";
+font-weight: 900;
+  padding-right:5px;
+  position:absolute;
+  font-size:20px;
+}
+#akt2 .t2 contaprincipal t:before{content:"conta primária";
+font:700 8px Arial;
+  text-transform:uppercase;
+  padding-right:5px;
+padding-left:22px;
+position: relative;
+    top: 8px;}
+
+#akt2 .t2 contaprincipal h{display:block;
+width:130px;
+position:absolute;
+overflow-x: auto;
+  text-align:center;
+margin-top:-5px;
+margin-left:100px;
+font:100 12px Calibri;}
+
+#akt2 .t2 contasecundarias {display:inline-block;
+border:1px solid #ddd;
+  height:18px;
+  position:relative;
+  top:10px;
+left:5px;
+text-align:left;
+padding:10px;
+background:#fafafa;
+overflow:hidden;
+width:230px;}
+#akt2 .t2 contasecundarias:before{font-family: 'Font Awesome\ 5 Free';
+content: "\f0c0";
+font-weight: 900;
+  padding-right:5px;
+  position:absolute;
+  font-size:20px;
+}
+#akt2 .t2 contasecundarias t:before{content:"contas secundárias";
+font:700 8px Arial;
+  text-transform:uppercase;
+  padding-right:5px;
+padding-left:30px;
+position: relative;
+    top: 8px;}
+
+#akt2 .t2 contasecundarias h{display:block;
+width:100px;
+overflow-x: auto;
+  text-align:center;
+margin-top:-5px;
+margin-left:130px;
+font:100 12px Calibri;}
+
+#akt2 .t2 premium {display:inline-block;
+border:1px solid #ddd;
+  height:18px;
+  position:relative;
+  top:5px;
+  left:8px;
+text-align:left;
+padding:10px;
+background:#fafafa;
+overflow:hidden;
+width:232px;}
+#akt2 .t2 premium:before{font-family: 'Font Awesome\ 5 Free';
+content: "\f521";
+font-weight: 900;
+  padding-right:5px;
+  position:absolute;
+  font-size:20px;
+}
+#akt2 .t2 premium t:before{content:"premium";
+font:700 8px Arial;
+  text-transform:uppercase;
+  padding-right:5px;
+padding-left:30px;
+position: relative;
+    top: 8px;}
+#akt2 .t2 premium h{display:block;
+width:160px;
+position:absolute;
+overflow-x: auto;
+  text-align:center;
+margin-top:-5px;
+margin-left:70px;
+font:100 12px Calibri;}
+
+#akt2 .t2 ag {display:inline-block;
+border:1px solid #ddd;
+  height:18px;
+  position:relative;
+  top:10px;
+  left:8px;
+text-align:left;
+padding:10px;
+background:#fafafa;
+overflow:hidden;
+width:232px;}
+#akt2 .t2 ag:before{font-family: 'Font Awesome\ 5 Free';
+content: "\f51e";
+font-weight: 900;
+  padding-right:5px;
+  position:absolute;
+  font-size:20px;
+}
+#akt2 .t2 ag t:before{content:"Saldo de AG";
+font:700 8px Arial;
+  text-transform:uppercase;
+  padding-right:5px;
+padding-left:25px;
+position: relative;
+    top: 8px;}
+
+#akt2 .t2 ag h{display:block;
+width:130px;
+position:absolute;
+overflow-x: auto;
+  text-align:center;
+margin-top:-5px;
+margin-left:100px;
+font:100 12px Calibri;}
+
+#inventarioakt {width:525px;
+background:transparent;
+height:auto;
+overflow:hidden;
+position:absolute;
+margin-top:130px;
+margin-left:129px;}
+#inventarioakt .t3 {border:1px solid #ddd;
+width:522px;
+  margin-top:2px;
+height:55px;
+  border-radius:1px;
+background:#eee;
+display:flex;}
+#inventarioakt .t3 label {font:900 20px Arial;
+background:#fafafa;
+color:#484747;
+text-transform:uppercase;
+ align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:10px;
+  margin:5px 1px;
+  position:relative;
+  left:4px;
+  border:1px solid #ddd;
+display:flex;
+width:78.8px;}
+#inventarioakt .t3 label titulo {
+  font-size:7px;}
+#inventarioakt .t3 label:active {
+    background:#eee;
+}
+
+#inventarioakt .t4{
+    position: relative;
+    width: 522px;
+    height: 380px;
+    display: block;
+  margin-top:2px;
+    z-index: 1;
+}
+#inventarioakt .t4 .bgch {
+    width: 525px;
+    height: 380px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  background:#ddd;
+    z-index: 1;
+    transition: 0.5s ease-in-out all;
+}
+
+#esll:checked ~ .bgch {
+background:#eee;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+#est2:checked ~ .bgch {
+background:#eee;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+#est3:checked ~ .bgch {
+background:#eee;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+#est4:checked ~ .bgch {
+background:#eee;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+#est5:checked ~ .bgch {
+background:#eee;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+
+#inventarioakt [id*="camp"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  width: 525px;
+height:380px;
+  overflow:auto;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s ease-in-out all;
+}
+#inventarioakt #esll:checked ~ #campl,
+#inventarioakt #est2:checked ~ #camp1,
+#inventarioakt #est3:checked ~ #camp2,
+#inventarioakt #est4:checked ~ #camp3,
+#inventarioakt #est5:checked ~ #camp4{
+    z-index: 3 !important;
+    opacity: 1;
+}
+
+
+#inventarioakt .estoque{width:500px;
+  height:auto;
+background:#fafafa;
+border:1px solid #ddd;
+  display:flex;
+  margin:2px auto;
+  position:relative;
+}
+#inventarioakt .estoque:before {
+background:#eee;
+font-family: 'Font Awesome\ 5 Free';
+content: "\f187";
+font-weight: 900;
+  font-size:30px;
+color:#484747;
+border:1px solid #ddd;
+   text-align:center;
+ justify-content: center;
+    flex-direction: column;
+    display: flex;
+padding:20px;
+margin:10px;}
+#inventarioakt .estoque tag {margin:10px -5px;
+padding:10px;
+  display:block;
+background:#eee;
+font: 100 11px Arial;
+width:380px;
+color:#484747;
+border:1px solid #ddd}
+#inventarioakt .estoque item:before {content:"Item:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .estoque quantidade:before {content:"Quantidade:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .estoque dataaquisicao:before {content:"Data de Aquisição:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .estoque link1:before {content:"Link de Aquisição:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+
+#inventarioakt .armas{width:500px;
+  height:auto;
+background:#fafafa;
+border:1px solid #ddd;
+  display:flex;
+  margin:2px auto;
+  position:relative;
+}
+#inventarioakt .armas:before {
+background:#eee;
+font-family: 'Font Awesome\ 5 Free';
+content: "\f66d";
+font-weight: 900;
+  font-size:30px;
+color:#484747;
+border:1px solid #ddd;
+   text-align:center;
+ justify-content: center;
+    flex-direction: column;
+    display: flex;
+padding:20px;
+margin:10px;}
+#inventarioakt .armas tag {margin:10px -5px;
+padding:10px;
+  display:block;
+background:#eee;
+font: 100 11px Arial;
+width:380px;
+color:#484747;
+border:1px solid #ddd}
+#inventarioakt .armas arma:before {content:"Item:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .armas quantidade:before {content:"Quantidade:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .armas dataaquisicao:before {content:"Data de Aquisição:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .armas link1:before {content:"Link de Aquisição:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+
+#inventarioakt .pacotes{width:500px;
+  height:auto;
+background:#fafafa;
+border:1px solid #ddd;
+  display:flex;
+  margin:2px auto;
+  position:relative;
+}
+#inventarioakt .pacotes:before {
+background:#eee;
+font-family: 'Font Awesome\ 5 Free';
+content: "\f468";
+font-weight: 900;
+  font-size:30px;
+color:#484747;
+border:1px solid #ddd;
+   text-align:center;
+ justify-content: center;
+    flex-direction: column;
+    display: flex;
+padding:20px 19px;
+margin:10px;}
+#inventarioakt .pacotes tag {margin:10px -5px;
+padding:10px;
+  display:block;
+background:#eee;
+font: 100 11px Arial;
+width:380px;
+color:#484747;
+border:1px solid #ddd}
+#inventarioakt .pacotes pacote:before {content:"Pacote:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .pacotes quantidade:before {content:"Quantidade:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .pacotes promo:before {content:"Promoção:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .pacotes itens:before {content:"Itens Inclusos:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+
+
+#inventarioakt .ativos{width:500px;
+  height:auto;
+background:#fafafa;
+border:1px solid #ddd;
+  display:flex;
+  margin:2px auto;
+  position:relative;
+}
+#inventarioakt .ativos:before {
+background:#eee;
+font-family: 'Font Awesome\ 5 Free';
+content: "\f205";
+font-weight: 900;
+  font-size:30px;
+color:#484747;
+border:1px solid #ddd;
+   text-align:center;
+ justify-content: center;
+    flex-direction: column;
+    display: flex;
+padding:20px 18px;
+margin:10px;}
+#inventarioakt .ativos tag {margin:10px -5px;
+padding:10px;
+  display:block;
+background:#eee;
+font: 100 11px Arial;
+width:380px;
+color:#484747;
+border:1px solid #ddd}
+#inventarioakt .ativos itemativo:before {content:"Item:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .ativos recebimento:before {content:"Link de Recebimento:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .ativos linkativ:before {content:"Link de Ativação:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .ativos local:before {content:"Local Ativado:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .ativos data:before {content:"Data da Ativação:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+
+
+#inventarioakt .vip{width:500px;
+  height:auto;
+background:#fafafa;
+border:1px solid #ddd;
+  display:flex;
+  margin:2px auto;
+  position:relative;
+}
+#inventarioakt .vip:before {
+background:#eee;
+font-family: 'Font Awesome\ 5 Free';
+content: "\f559";
+font-weight: 900;
+  font-size:30px;
+color:#484747;
+border:1px solid #ddd;
+   text-align:center;
+ justify-content: center;
+    flex-direction: column;
+    display: flex;
+padding:20px 24px;
+margin:10px;}
+#inventarioakt .vip tag {margin:10px -5px;
+padding:10px;
+  display:block;
+background:#eee;
+font: 100 11px Arial;
+width:380px;
+color:#484747;
+border:1px solid #ddd}
+#inventarioakt .vip tipo:before {content:"Tipo de VIP:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .vip aquisicao:before {content:"Link de Aquisição:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .vip linkativ:before {content:"Link de Ativação:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .vip local:before {content:"Ativado na conta:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .vip data1:before {content:"Data da Ativação:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+#inventarioakt .vip data2:before {content:"Data de Validade:";
+font:900 10px Arial;
+text-transform:uppercase;
+color:#1c1c1c;
+padding-right:5px;}
+
+#inventarioakt::after {content:"by loolaresources for narutorpgakatsuki @2020";
+font:100 10px Calibri;
+  text-transform:uppercase;
+  color:#000;
+}
+
+#inventarioakt dl.codebox {
+    font: 900 12px Arial;
+    padding: 10px;
+    margin: auto;
+    width: 480px;
+    height: auto;
+    background: #fafafa;
+    border: 1px solid #ddd;
+}
